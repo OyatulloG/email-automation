@@ -22,7 +22,7 @@ mvn -Dbrowser=chrome -Denvironment=dev -Dsurefire.suiteXmlFiles=src/test/resourc
 1. dev
 2. qa
 3. staging
-NB: These files can be in the directory: src/test/resources/
+NB: These files can be found in the directory: src/test/resources/
 
 -Dsurefire.suiteXmlFiles values are all files that start with "testng" in the folder:
 src/test/resources/
