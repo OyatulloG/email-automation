@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite name="YahooMail loginWithWrongEmail" verbose="1">         
+  <test name="YahooMail loginWithWrongEmail">
+    <classes>
+      <class name="com.github.ea.test.YahooMailTest">
+        <methods>
+          <include name="loginWithWrongEmail" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

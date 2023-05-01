@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite name="MailRu isMailReceived" verbose="1">         
+  <test name="MailRu isMailReceived">
+    <classes>
+      <class name="com.github.ea.test.MailRuTest">
+        <methods>
+          <include name="isMailReceived" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

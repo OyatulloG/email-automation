@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite name="MailRu" verbose="1">         
+  <test name="MailRu">
+    <classes>
+      <class name="com.github.ea.test.MailRuTest"/>      
+    </classes>
+  </test>
+</suite>

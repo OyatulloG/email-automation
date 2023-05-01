@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite name="MailRu sendNewMail" verbose="1">         
+  <test name="MailRu sendNewMail">
+    <classes>
+      <class name="com.github.ea.test.MailRuTest">
+        <methods>
+          <include name="sendNewMail" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
